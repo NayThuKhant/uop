@@ -1,0 +1,12 @@
+A:alpha_uppercases,randoms
+B:alpha_uppercases,alpha_mixedcases,alpha_number_mixedcases,randoms
+C:alpha_uppercases
+a:alpha_lowercases,alpha_mixedcases,alpha_number_mixedcases
+b:alpha_lowercases
+c:alpha_lowercases,alpha_mixedcases
+1:numbers,alpha_number_mixedcases,randoms
+2:numbers
+3:numbers
+0:randoms
++:randoms
+-:randoms

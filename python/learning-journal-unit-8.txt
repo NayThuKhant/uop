@@ -1,0 +1,6 @@
+alpha_uppercases:A,B,C
+alpha_lowercases:a,b,c
+alpha_mixedcases:a,B,c
+numbers:1,2,3
+alpha_number_mixedcases:1,a,B
+randoms:A,1,B,0,+,-

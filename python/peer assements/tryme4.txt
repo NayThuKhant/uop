@@ -1,0 +1,31 @@
+def new_line():
+
+    print('.')
+
+def three_lines():
+
+    new_line()
+
+    new_line()
+
+    new_line()
+
+
+def nine_lines(): # Function that Prints 9 lines
+    three_lines()
+    three_lines()
+    three_lines()
+
+
+
+def clear_screen(): # Function to print 25 lines
+    nine_lines()
+    nine_lines()
+    three_lines()
+    three_lines()
+    new_line()
+
+print("Printing nine lines: ") # Placeholder for 9 lines
+nine_lines() # Calling nine_lines f(x)
+print("Printing 25 lines: ") # Placeholder for 25 lines
+clear_screen()
