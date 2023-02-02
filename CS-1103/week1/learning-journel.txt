@@ -1,0 +1,7 @@
+After learning Exceptions and Handling them deeply, I'm quiet excited to do everything to handle the exceptions, and do some rollback after an
+catching an exception or alert the user from the prompt. Without that knowledge, I think we "programmers" wont be able to produce the sustainable
+applications or websites. I can even imagine that the program will crash after every exception and that will not give the best application experience
+to users and also in terms of losing Data. I'm really happy to get into this Language day by day, course by course. And I did learn about those
+mechanism on Google, Stackoverflow and some articles related to improve handing the exceptions. And of course, these helped me a lot to understand better.
+I'm really thankful to each of the writers who are willing to share their knowledge and experiences. I'm sure that I will share my knowledge like them
+once I have enough experience in Programming.

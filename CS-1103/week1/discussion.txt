@@ -1,0 +1,31 @@
+In computer programming, exceptions are runtime errors that occur when a program encounters an unexpected situation.
+The question of who should be responsible for catching and handling exceptions is a matter of programming best practices
+and the specific requirements of the application.
+
+The general rule is that the computer program should be responsible for catching and handling exceptions. The reason
+is that exceptions are part of the normal operation of a program and should be handled gracefully to ensure that
+the program continues to run smoothly, even in the presence of errors.
+
+In other words, exceptions are a way for the program to handle unexpected situations and prevent the program from crashing.
+If a program crashes, it can cause data loss, damage to the user's system, or other unintended consequences.
+
+I will provide the flow of handling an exception with the help of try catch below.
+
+double x;
+try {
+    x = Double.parseDouble(str);
+    System.out.println( "The number is " + x );
+}catch ( NumberFormatException e ) {
+    System.out.println( "Not a legal number." );
+    x = Double.NaN;
+}
+
+In the above example, an error will be thrown due to the call of Double.parseDouble(str) where str is STRING TYPE VARIABLE.
+Without catching this exception inside try catch, the program will end immediately. But As far as I understand, we should
+not always catch the exception and let the program continues since it may lead to bigger problems sometimes.
+
+In conclusion, only the computer program should be responsible for catching and handling exceptions.
+
+Reference
+David J.Eck. (2022, May). Javanotes 9
+Java Application. Introduction to Programming Using Java. https://math.hws.edu/javanotes/c2/s1.html
