@@ -1,0 +1,12 @@
+I've been learning the basic of Java Programming especially command based things. I this week I got a chance
+to learn GUI programming using Java which is fascinating. I admit that I had to read the Paint program
+very carefully unlike what we did in previous weeks. And I did some curious researches on Google and got
+to know the GUI programming well. I feel like JavaFX is really strong enough to create GUI based applications.
+It's components are something what make it better. And the Events and the way of registering Event Handler are
+also important things in a JavaFX application since we need to take care of the actions of the user such as clicking,
+dragging and typing in real-life applications. The UI components provided by JavaFX are really usable and we can
+simply create our own layouts, components. That's my favourite features in JavaFX. For me, the challenging part for
+the week6 is reading to understand the code of PaintProgram. But I could finally understand and imagine the flow of that
+program successfully after taking couple of hours. I will make sure to increase my skills at Programming and create applications/
+websites that will be useful and helping for the people. And as the last sentence of this Learning Journal, I would like to thank
+to all, who founded this university, courses and provided these valuable materials to me.

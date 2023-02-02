@@ -1,0 +1,8 @@
+In this week, I have learnt about the knowledge of Class & Object which are essential basics of Object-Oriented Programming known as OOP.
+I think this kind of writing code can help us to better re-usability and increase the clarity of a program for a human being.
+I read about the basic of Class & Object not only from the book we have, but also from internet. And I tried to prepare my assignments
+as much as simple, understandable. And what I've learnt in this week especially is the creation own relationship of Objects and the importance of those relations.
+AS much I've explored on the websites, we'll be using some famous frameworks and most of the famous framework are built on top of OOP.
+I simply tried to imagine class & object from programming as natural things we see around our environment and
+with the help of that logic, I could understand that very easily. I'm still motivated more than enough to solve the puzzle from the side of
+programming, and I'm really happy to be learning these things.

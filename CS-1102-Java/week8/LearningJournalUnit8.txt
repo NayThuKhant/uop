@@ -1,0 +1,9 @@
+In this week, I have reviewed especially about OOP in Java. And I have also tried to deeply understand the
+inheritance and polymorphism in Java with the help of Quiz program we have made so far. I was so happy to
+learn about it since I'm gaining the knowledge I need when I will work as a developer later on. But learning gap
+wasn't too easy, to be honest. Anyway I managed to come over it, and finally I got the point of OOP after reading for
+like couple of hours from the internet, and the pdf I have. I got help from the ebook and stackoverflow, javapoint to
+overcome these difficulties, and I really appreciate to everyone who built or created these useful and helping platforms.
+And I'm sure enough to contribute back once I'm ready to do it.I'll be learning Java more and more
+to work as a Java Developer, and I will make sure to build things and help people with the things I have learnt from
+this course.

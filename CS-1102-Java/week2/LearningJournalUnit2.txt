@@ -1,0 +1,12 @@
+I have got a chance to learn the basics control of Java Programming in this week and I just found out that
+it's an essential one. Even thought I had some challenging parts, I tried to complete the assignments with
+the knowledge I've got in this week. I did some research the importance and logic of control, and it helped me
+a lot. And I did try to understand with the help of e-book and the contents in that books are incredibly precious.
+What's different from the first week is that I had more confidence in Java Programming Language, and I was motivated
+enough to solve the puzzles using this language. And I feel like Java Programming Language is best for the beginners,
+only with the best resources. For me, I think the current e-book we have is the best in this case. As I mentioned above,
+the e-book helped me a lot and I do respect the author of the book. I do want to contribute like him a day, helping
+people in this industry by writing e-books, creating podcasts or videos with the knowledge I will have. I learned about
+the basics of Java Programming Language in this week, specifically blocks, loops and branches, exceptions and GUI programming
+which is quite interesting since I always wanted to create GUI using programming languages. I think the knowledge I got
+in this week can be applied in any other programming languages as well since these are the essentials one.

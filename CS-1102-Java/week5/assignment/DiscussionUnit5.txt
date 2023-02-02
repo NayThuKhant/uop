@@ -1,0 +1,59 @@
+In Java, the "super" and "this" keywords are often used when working with inheritance. They can be used in constructors and as
+variables to refer to parent or child class objects, respectively. Here are some examples of how these keywords can be used:
+
+When calling a parent class constructor from a child class, the "super" keyword is used. For example:
+
+public class ChildClass extends ParentClass {
+  public ChildClass() {
+    super(); // calls the parent class constructor
+  }
+}
+
+The "this" keyword can be used to refer to the current object, either when calling another constructor in the same class or when calling
+a method on the current object. For example:
+
+public class SomeClass {
+  public SomeClass() {
+    this(0); // calls another constructor in the same class
+  }
+  public SomeClass(int x) {
+    // do something with x
+  }
+}
+
+public class SomeClass {
+  public void someMethod() {
+    this.doSomethingElse(); // calls a method on the current object
+  }
+  public void doSomethingElse() {
+    // do something
+  }
+}
+
+
+The "super" keyword can also be used to refer to a parent class instance variable from within a child class. For example:
+
+public class ParentClass {
+  protected int x;
+}
+
+public class ChildClass extends ParentClass {
+  public void someMethod() {
+    System.out.println(super.x); // prints the value of the x variable from the parent class
+  }
+}
+
+Similarly, the "this" keyword can be used to refer to a child class instance variable from within the same class. For example:
+
+public class SomeClass {
+  private int x;
+  public void someMethod() {
+    System.out.println(this.x); // prints the value of the x variable
+  }
+}
+
+In summary, the "super" and "this" keywords are useful in Java when working with inheritance because they provide a way to refer
+to parent and child class objects, respectively. They can be used in constructors to call parent class constructors or other
+constructors in the same class, and they can be used as variables to access parent and child class instance variables.
+
+

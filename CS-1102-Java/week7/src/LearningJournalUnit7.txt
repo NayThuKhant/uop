@@ -1,0 +1,19 @@
+I this week, I got a chance to learn the things which are the basics of Java Programming Language.
+To be specific, I learnt the following things.
+
+- Array
+- For each loops in Array
+- ArrayList and The Wrapper Classes
+- Two dimensional Array
+- Autoboxing and Unboxing
+- Arity functions and benefits
+
+And I found out that Arrays are the important in every Programming Language. The basic of how a array works,
+store the values are fascinating. And the Wrapper Classes are interesting as well because of theirs functions.
+I was really motivated, happy and excited to learn those things in this week, and I'm sure that I'm still happy
+while I'm writhing this Journal. But my previous Programming Languages are dynamic ones and I really needed to
+take care of Static Things in Java, especially typed ones. But with the help of ebook we have, it went pretty
+easier for me. And I'm really thankful for everything I can access here during this course, and I'll try my best
+to improve my skills as a learner. And I will contribute everything I know once I'm ready just to help people
+who are interested in IT field.
+

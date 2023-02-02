@@ -1,0 +1,33 @@
+Response to mousePressed
+
+Firstly the program check if the dragging is true which means the mouse is being used to draw shapes on the canvas in the drawing area. And ignore
+the event if the user is dragging the mouse. Or else it will first collect the coordinates of the mouse and the width and height of canvas.
+
+If the current x-coordinate of the mouse is greater than width-53 and y-coordinate less than height-53, which means mouse is pressing over "CLEAR" button,
+and it will call the clearAndDrawPalette method to restart the Paint. If the current x-coordinate of the mouse is greater than width-53 and the
+y-coordinate of the mouse is not greater than height-53, which means the mouse is pressing over one of the colors from color palette, and it will
+call the changeColor method to change the ink color.
+
+For detecting of dragging withing drawing area, it checks conditional flow (x-coordinate of the mouse is between 3 <the width of the canvas border> and
+width - 56 <the width of the canvas border + the total width of the button border + the width of the button> && the y-coordinate of the mouse < height - 3
+<the height of the canvas border>, and starts to draw if the condition is correct.
+
+Response to mouseReleased
+
+It will just reset the dragging false to mark it as the mouse is not drawing or clicking anymore.
+
+Response to mouseDragged
+
+Firstly it will check if the dragging is false, which mean user is not pressing mouse and doing nothing with the mouse on the application window and will
+ignore the action.
+
+Or else, check if the coordinates of the mouse is within drawing area and will continue to draw if only the condition is correct.
+
+Reference
+David J.Eck. (2022, May). Javanotes 9, Section 6
+Java Application. Introduction to Programming Using Java. https://math.hws.edu/javanotes/c2/s1.html
+
+
+
+
+

@@ -1,0 +1,8 @@
+In this week, I have learnt the basics of Java Programming Language as previous weeks, especially splitting the code into clear pieces and
+arrays. I've found out that code splitting is one of the most important basic in the Programming Language. I read about DRY - Don't Repeat Yourself
+on some websites and when we try to split the reusable codes into subroutine (method), we don't have to re-write the duplicated code as we did before.
+And it makes the developer to understand the code clearly by just reading it. By using this logic, we can avoid code duplication in our programs and
+decrease the development time. If we are doing a team project, the subroutine (method) I created can be useful for other developers as well. My attitude
+on learning programming language is still the same, I feel good to do things by coding. As a learner, I'm pretty sure that I'll keep learning and practising
+programming language to solve almost everything I will face in my life. Moreover, I'm still trying to earn from doing these things, share my knowledge back to
+those who will be new in programming as I am now. And I do want to appreciate everyone who gave this opportunity to learn these interesting IT subjects.

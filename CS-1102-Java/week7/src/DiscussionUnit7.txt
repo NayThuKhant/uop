@@ -1,0 +1,56 @@
+In the Java programming language, a wrapper class is a class that wraps (encloses) a primitive data type
+and provides additional functionality or behavior. For example, the Integer class is a wrapper class for
+the primitive data type int, the Character class is a wrapper class for the primitive data type char,
+and the Boolean class is a wrapper class for the primitive data type boolean.
+
+Wrapper classes are useful because they allow you to treat primitive data types as objects,
+which can be useful in certain situations. For example, the ArrayList class in Java is a collection
+that can store a list of objects. However, it cannot store primitive data types directly. Instead,
+you must use the corresponding wrapper class for each primitive data type that you want to store in
+the ArrayList.
+
+
+import java.util.ArrayList;
+
+public class Main {
+  public static void main(String[] args) {
+    ArrayList<Integer> numbers = new ArrayList<>();
+    numbers.add(1);
+    numbers.add(2);
+    numbers.add(3);
+
+    for (Integer number : numbers) {
+      System.out.println(number);
+    }
+  }
+}
+
+In this example, we create an ArrayList of type Integer called numbers, which means that it can only
+store Integer objects. We then add three integers to the ArrayList using the add method. Because the
+add method expects an Integer object, we must wrap the primitive integers in Integer objects using
+the Integer class's constructor.
+
+This process of converting a primitive data type to its corresponding wrapper class is called
+"autoboxing." The reverse process, in which a wrapper class is converted to its corresponding primitive
+data type, is called "unboxing."
+
+Autoboxing and unboxing are convenient features of the Java programming language that allow you
+to use primitive data types and wrapper classes interchangeably without having to perform explicit
+ conversions. For example, you can pass a primitive data type to a method that expects an object
+ of the corresponding wrapper class, and the compiler will automatically convert the primitive data
+ type to the wrapper class for you.
+
+
+
+Reference
+David J.Eck. (2022, May). Javanotes 9, Section 2
+Java Application. Introduction to Programming Using Java. https://math.hws.edu/javanotes/c2/s1.html
+
+w3schools
+https://www.w3schools.com/java/java_wrapper_classes.asp
+
+GeeksForGeeks
+https://www.geeksforgeeks.org/wrapper-classes-java/
+
+
+

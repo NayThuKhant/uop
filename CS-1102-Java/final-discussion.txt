@@ -1,0 +1,60 @@
+In Quiz program, the question class TrueFalseQuestion and MultipleChoiceQuestion are extending the same parent
+class Question. By doing this, we are using the inheritance features of OOP, and we are able to use the parent's
+member methods, and properties such ask, check and showResults.
+
+Class Variables vs Instance Variables
+
+The variable such as nQuestions and nCorrect declared under Question.java with static keyword are class variables.
+The variables declared under Question.java outside the methods such as question and correctAnswer without static keyword are instance variables.
+
+Inheritance
+
+Inheritance is a way to create a new class that is a modified version of an existing class. The new class is called the subclass, and the existing class is the superclass.
+The subclass can override or extend the methods of the superclass, allowing the subclass to behave differently from the superclass.
+By extending a parent class (Question), child classes (TrueFalseQuestion & MultipleChoiceQuestion) can access the parent's properties and methods.
+
+Polymorphism
+
+Polymorphism is a concept in object-oriented programming languages like Java that allows objects of different types to be treated as the same type. This can be achieved through
+inheritance, interfaces, and method overloading and overriding.
+
+In Java, an abstract class is a class that cannot be instantiated, meaning you cannot create new instances of an abstract class. However, it can be used as a base class for one or more derived classes.
+An abstract class can have abstract methods, which are methods that have a declaration but no implementation, as well as concrete methods, which have both a declaration and an implementation.
+
+Abstract methods must be implemented by any non-abstract subclass (a subclass that is not abstract). If a class has one or more abstract methods, then the class must be declared abstract.
+
+Here is an example of an abstract class in Java:
+
+abstract class Animal {
+  public abstract void makeSound();
+
+  public void eat() {
+    System.out.println("Animal is eating");
+  }
+}
+
+In this example, Animal is an abstract class that has one abstract method, makeSound, and one concrete method, eat. Any non-abstract subclass of Animal must implement the makeSound method.
+
+
+In Java, "this" keyword refers to the current object. It can be used to refer to the current object's instance variables or to call other methods of the current object.
+Here is an example of how "this" keyword can be used to refer to instance variables:
+
+public class Employee {
+  private String name;
+  private int age;
+
+  public Employee(String name, int age) {
+    this.name = name;
+    this.age = age;
+  }
+}
+
+The super keyword is used to refer to the immediate parent class of the class in which it is used. It can be used to call methods of the parent class, or to access data members of the parent class.
+
+An interface is a reference type that specifies a set of methods that a class must implement. It is similar to a class, but it does not have any implementation for the methods it declares. Instead,
+a class that implements an interface must provide implementations for all the methods declared in the interface.
+
+An event listener is a programming construct that allows an object to register an interest in events that occur in the application, and to be notified when they do. This allows the object to perform some action in response to the event.
+
+In Java, an event listener is usually implemented as an interface with one or more methods that are called when an event occurs. The object that wants to be notified of the event registers itself as a listener for that event by implementing
+the listener interface and registering itself with the source of the event.

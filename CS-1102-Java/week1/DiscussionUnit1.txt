@@ -1,0 +1,67 @@
+Programming Languages have their own grammar rules and these are defined as "Syntax" and the meaning of a program is known as "Semantics". A programmer with syntax error cannot be compiled. A program with semantic errors can be compiled, but gives and incorrect output.
+
+In Java Programming Language, if we forget to put a pair of double codes around the string a program, we can call it as syntax error.  The compiler can't compile the program due to the syntax error and this will lead to compilation error.
+
+public class DiscussionUnit1 {
+
+    public static void main(String[] args) {
+        System.out.println("HelloWorld);
+    }
+
+}
+
+If we try to compile the above java code, compiler will mention that we have a syntax error in this program and print the following output to the terminal.
+
+❯ javac DiscussionUnit1.java
+
+DiscussionUnit1.java:4: error: unclosed string literal
+
+        System.out.println("HelloWorld);
+
+                           ^
+
+1 error
+
+In the following example, the compiler can compile the program successfully. But the program is probably working incorrectly, meaning 1/AnyPositiveInteger leads to 0, and we need to think twice if the output of this calculation is useful or correct for the program. We can simply assume as 0 without calculation at all. This kind of error is called semantic error.
+
+
+public class DiscussionUnit1 {
+
+    public static void main(String[] args) {
+        int positiveInteger = 10;
+        float fraction = 1/positiveInteger;
+        System.out.println(fraction);
+
+        positiveInteger = 50;
+        fraction = 1/positiveInteger;
+        System.out.println(fraction);
+    }
+
+}
+
+If we compile the above code, it has no error at all. But if we tried to run the program, we can see that the output of 1/AnyPositiveInteger always returns 0, and we don't even need to calculate here.
+
+❯ java DiscussionUnit1
+
+0.0
+
+0.0
+
+Reference, David, J. K. (n.d.). Javanotes 9, JavaFX edition -- title page. Retrieved November 14, 2022, from
+
+https://math.hws.edu/javanotes/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
