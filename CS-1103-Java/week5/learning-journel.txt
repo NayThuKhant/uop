@@ -1,0 +1,24 @@
+In this week, I created a spell checker program using Java. The program reads in a text file, splits the words into an array, and checks
+each word against a dictionary to see if it is spelled correctly. If the word is not in the dictionary, the program uses a
+Levenshtein distance algorithm to find the closest matching word in the dictionary and suggest it as a correction.
+
+To implement this program, I first created a Dictionary class that reads in a text file of words and stores them in a HashSet.
+ I chose to use a HashSet because it has constant time complexity for lookups, making it an efficient data structure for this program.
+ I then created a SpellChecker class that takes in a file path as input, reads in the file using a BufferedReader, and splits the words
+ into an array. I used a BufferedReader instead of a Scanner because it is more efficient for reading large files.
+
+Next, I looped through each word in the array and checked if it was in the dictionary HashSet. If it was not, I used a Levenshtein
+distance algorithm to find the closest matching word in the dictionary and suggest it as a correction. I used a TreeSet to store the
+corrections because it automatically sorts the corrections alphabetically and removes duplicates.
+
+During this week, I found myself feeling challenged when implementing the Levenshtein distance algorithm. I had to spend some
+ time understanding how the algorithm worked before I could successfully implement it in my code. However, I found that the challenge
+  was a good opportunity for me to learn and grow my skills.
+
+Overall, I learned a lot about data structures and algorithms through this week. I gained a deeper understanding of HashSet and TreeSet
+and how to use them in Java. I also learned how to implement a Levenshtein distance algorithm and how it can be used in spell checking.
+
+One thing that surprised me during this week was how many algorithms there are for finding the distance between two strings.
+I researched several algorithms before settling on the Levenshtein distance algorithm, and it was interesting to see the different
+approaches that can be used.
+

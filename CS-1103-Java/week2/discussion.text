@@ -1,0 +1,47 @@
+Recursive algorithms are a useful programming technique when solving problems that can be broken down into smaller,
+identical or similar sub-problems. Recursion can be considered as an elegant and concise alternative to traditional
+iterative solutions, particularly when the problem can be easily expressed as a series of self-similar steps.
+
+Advantages of Recursive Algorithms:
+
+Simplicity
+Recursive algorithms are often easier to understand and write, especially for problems that have
+a natural recursive structure. For example, to calculate the factorial of a number, you can easily write a recursive
+solution that calls itself with a decremented input until it reaches the base case.
+
+Reusability
+Recursive algorithms are reusable and modular, making them easy to test and maintain. A single recursive function
+can be used to solve multiple problems, reducing the amount of code required.
+
+Flexibility
+Recursive algorithms can be adapted to solve a variety of problems, making them a versatile tool in your
+programming toolbox. They can also be combined with other programming constructs such as loops and conditional
+statements to solve complex problems.
+
+Disadvantages of Recursive Algorithms:
+
+Overhead
+Recursive algorithms can be slower and more memory-intensive than iterative solutions, due to the overhead
+of function calls and the need to store intermediate values on the call stack.
+
+Complexity
+Recursive algorithms can be more complex to understand and debug, particularly when the base case and recursive
+steps are not well-defined.
+
+Stack Overflow
+Recursive algorithms can lead to stack overflow errors if the recursion depth becomes too great. To avoid this,
+it is important to carefully consider the base case and recursive steps and ensure that the recursion will eventually terminate.
+
+public static int factorial(int n) {
+   if (n == 0) {
+      return 1;
+   }
+   return n * factorial(n - 1);
+}
+
+In conclusion, recursive algorithms are a useful tool in programming, and they can simplify the solution to problems that have a recursive
+structure. However, they should be used with caution, as they can be slower, more complex, and more memory-intensive than iterative solutions.
+
+Reference
+David J.Eck. (2022, May). Javanotes 9
+Java Application. Introduction to Programming Using Java. https://math.hws.edu/javanotes/c2/s1.html

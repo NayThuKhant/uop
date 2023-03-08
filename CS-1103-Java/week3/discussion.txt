@@ -1,0 +1,55 @@
+Abstract Data Types (ADTs) are an essential concept in programming that facilitates program modularity. ADTs define a high-level interface
+to a particular data structure while hiding its internal implementation details. In this way, ADTs provide several advantages to program
+ modularity. Let's discuss these advantages below:
+
+Encapsulation: Encapsulation is a crucial concept in Object-Oriented Programming (OOP) that aims to hide the internal details of a data
+structure from the rest of the program. ADTs encapsulate the data structure and its associated operations, preventing unauthorized
+access to its internal details. This feature allows for a modular design of the program since the data structure and its functions
+can be accessed only through a well-defined interface.
+
+public interface Stack<E> {
+  public void push(E element);
+  public E pop();
+  public E top();
+}
+
+Abstraction: Abstraction is the ability to identify essential details and ignore others. By providing an abstract interface to a data
+structure, ADTs allow programmers to work with the data structure's functionality without worrying about its implementation details.
+This feature enhances program modularity since changes in the implementation of the ADT will not impact the rest of the program,
+as long as the interface remains unchanged.
+
+Code Reusability: ADTs promote code reusability since they can be used in different programs that require the same data structure.
+ADTs offer a standard interface that other programs can use, eliminating the need to reinvent the wheel. This feature promotes
+program modularity since different parts of the program can reuse the same ADT without conflicting with one another.
+
+public class ArrayStack<E> implements Stack<E> {
+  private E[] elements;
+  private int size;
+
+  public ArrayStack() {
+    elements = (E[]) new Object[10];
+    size = 0;
+  }
+
+  public void push(E element) {
+    // add element to the stack
+  }
+
+  public E pop() {
+    // remove element from the stack
+    return null;
+  }
+
+  public E top() {
+    // return the top element of the stack
+    return null;
+  }
+}
+
+Reference
+David J.Eck. (2022, May). Javanotes 9
+Java Application. Introduction to Programming Using Java. https://math.hws.edu/javanotes/c2/s1.html
+
+https://examples.javacodegeeks.com/adt-java-tutorial/#:~:text=An%20Abstract%20Data%20Type%20(ADT,by%20its%20inputs%20and%20outputs.
+
+http://www2.hawaii.edu/~janst/211_f10/lecture/ADT%20&%20Java%20OOP.htm
